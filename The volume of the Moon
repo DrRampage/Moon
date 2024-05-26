@@ -1,0 +1,11 @@
+import math
+
+# Constants
+PI = math.pi
+RADIUS_OF_MOON = 1737  # in kilometers
+
+# Calculate the volume of the Moon
+volume_of_moon = (4/3) * PI * (RADIUS_OF_MOON ** 3)
+
+# Print the result
+print("The volume of the Moon is approximately", volume_of_moon, "cubic kilometers.")
